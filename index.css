@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to left bottom,lightgreen,lightblue) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+    background-color: rgb(197, 223, 200);
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+     width: 80vw;
+}
+
+.container h2
+{
+    font-size: 40px;
+}
+.container p
+{
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+.container h6
+{
+    font-size: 20px;
+}
+.container button
+{
+    width: 50%;
+    height: 10vh;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    border-radius: 5px;
+
+}
+
+.container button:hover
+{
+    opacity: 0.7;
+}
